@@ -9,6 +9,6 @@ func TestAdd(t *testing.T) {
 	sum := math.Add(9,9)
 	expectedValue := int64(18)
 	if sum != expectedValue {
-		t.Errorf("Sum of addtion is bad (Actual: %s, Expected: %s)", sum, expectedValue)
+		t.Errorf("Sum of addtion is bad (Actual: %d, Expected: %d)", sum, expectedValue)
 	}
 }
