@@ -1,1 +1,3 @@
-# go_assembly_example
+# GO assembly example
+
+Go can seamlessly use functions written in Assembly.
